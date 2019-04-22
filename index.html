@@ -21,16 +21,12 @@
 <script>
 	var map;
 	var parks = [
-		{"park":"Yellowstone","coords":[44.4280,-110.5885]},
-		{"park":"Glacier","coords":[48.7596, -113.7870]}
-		];
-    var places = [
-        {"places":"angkor wat","coords":[13.412866, 103.866943]},
-        {"places":"Pyramids Egypt","coords":[29.977587, 31.132705]},
-        {"places":"Stonehenge England","coords":[51.179117, -1.825625]},
-        {"places":"Grand canyon USA","coords":[36.388093, -113.745559]},
-        {"places":"angkor wat","coords":[13.412866, 103.866943]},
-        {"places":"angkor wat","coords":[13.412866, 103.866943]}
+        {"park":"ZION national park","coords":[37.309380, -113.028176]},
+        {"park":"Olympic National park","coords":[47.812614, -123.642653]},
+        {"park":"Great Basin National Park","coords":[38.985541, -114.283928]},
+        {"park":"Grand canyon USA","coords":[36.388093, -113.745559]},
+        {"park":"Mesa verde park","coords":[37.230795, -108.467871]},
+        {"park":"Carlsbad caverns national park","coords":[32.160453, -104.540090]}
     ];
 
 	function initMap() {
@@ -41,8 +37,6 @@
 		});
 
 		mashParks(parks);
-        mashParks(places);
-
 	}
 
 	function mashParks(results) {
